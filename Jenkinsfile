@@ -7,6 +7,7 @@ pipeline {
                 parallel(
                     a: {
                         echo 'git clone'
+                        echo 'git Jenkins'
                     },
                     b: {
                         echo 'build'
